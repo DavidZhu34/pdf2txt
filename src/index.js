@@ -1,4 +1,5 @@
-import pdf from "pdf-parse/esm.mjs";
+import pdf from "pdf-parse";
+const pdf = pkg.default || pkg;
 
 const MAX_MB    = 4;
 const MAX_CHARS = 20000;
