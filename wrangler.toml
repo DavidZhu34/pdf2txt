@@ -1,0 +1,9 @@
+name = "pdf2txt"
+main = "src/index.js"
+compatibility_date = "2025-05-07"
+
+# Enable Node polyfills so pdf-parse works
+compatibility_flags = ["nodejs_compat"]
+
+[build]
+command = "npm install" 
